@@ -1,0 +1,6 @@
+{
+    "port": 5555,
+    "mongoUri": "mongodb://localhost:27017/AppBlog",
+    "mongoDocker": "mongodb://db:27017/AppBlog"
+}
+  

@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  db:
+    image: mongo:latest
+    ports:
+      - '27017:27016'
+
+  rest-api-node:
+    build: .
+    ports:
+      - '49160:5555'
+    links:
+      - db
